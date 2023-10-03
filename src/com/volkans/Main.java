@@ -1,7 +1,6 @@
 package com.volkans;
 
 import com.volkans.implementations.TwitterMenuImpl;
-
 /*
  * Kendime Not: Neler Yaptım ?
  * 1- Sealed Person Sınıfından Admin ve User Sınıfları için Miras Aldım, aynı zamanda abstract tanımladım ve direkt nesne üretimini engelledim.
@@ -33,11 +32,6 @@ import com.volkans.implementations.TwitterMenuImpl;
  * 						 stream()'lerin foreach'inde break,continue ve return keywordleri konulabilmesine rağmen çalışmıyorlar! O yüzden revize edip stream()'lerden vazgeçip normal foreachlere döndüm.
  * 19- Gerekli yerlerde labeledBreak ve labeledContinue kullandım (etiketli kırma/devamettirme)
  * 20- MessageBox için (DM Kutusu) Map<User,List<Message>> kullanmayı tercih ettim, böylelikle her user'ı unique kullanıp, mesajlarını tek bir listeye atmayı hedefledim.
- * 
- * Kendime Eksi Not: 
- * generic kullanabileceğim yerler vardı (postTweet ve postComment)
- * Birkaç satırı method içine alabileceğim durum söz konusuydu - fakat şimdilik bu kadar yeter diye + biraz rahatsızlandığım için burada bıraktım... İleride düzeltilebilir...
- * 
  */
 public class Main {
 
